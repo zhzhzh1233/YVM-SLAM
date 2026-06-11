@@ -166,7 +166,7 @@ class VLMSupervisorNode(Node):
             user_text = self.last_user_query if force else ""
             self.get_logger().info("Sending VLM request.")
             system_prompt = (
-                "You are an agent managing object detection lists for SLAM.\n"
+                "You are a controller managing object detection lists for SLAM.\n"
                 "Goal: keep dynamic list focused on moving/unstable objects; "
                 "keep static_interest list for user-relevant static objects.\n"
                 "Return JSON only with keys:\n"

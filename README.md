@@ -89,15 +89,53 @@ cmake -DCMAKE_BUILD_TYPE=Release ..
 make rgbd_tum -j4
 ```
 
-## 运行示例
+## 运行 TUM RGB-D
 
-TUM RGB-D 示例命令格式：
+以下命令以 TUM RGB-D 数据集为例。请先准备好 TUM RGB-D 数据集，例如 `rgbd_dataset_freiburg1_xyz`、`rgbd_dataset_freiburg1_desk`、`rgbd_dataset_freiburg2_xyz` 或 `rgbd_dataset_freiburg3_office`。
+
+1. 恢复 ORB 词袋文件：
 
 ```bash
-./Examples/RGB-D/rgbd_tum Vocabulary/ORBvoc.txt Examples/RGB-D/TUMX.yaml PATH_TO_SEQUENCE ASSOCIATIONS_FILE
+tar -xf Vocabulary/ORBvoc.txt.tar.gz -C Vocabulary
 ```
 
-请将 `PATH_TO_SEQUENCE` 和 `ASSOCIATIONS_FILE` 替换为本地数据集路径。
+2. 编译 `rgbd_tum`：
+
+```bash
+chmod +x build.sh
+./build.sh
+```
+
+编译完成后，可执行文件位于：
+
+```text
+Examples/RGB-D/rgbd_tum
+```
+
+3. 按数据集选择配置文件和关联文件：
+
+| 数据集示例 | 配置文件 | 关联文件 |
+| --- | --- | --- |
+| `rgbd_dataset_freiburg1_xyz` | `Examples/RGB-D/TUM1.yaml` | `Examples/RGB-D/associations/fr1_xyz.txt` |
+| `rgbd_dataset_freiburg1_desk` | `Examples/RGB-D/TUM1.yaml` | `Examples/RGB-D/associations/fr1_desk.txt` |
+| `rgbd_dataset_freiburg1_room` | `Examples/RGB-D/TUM1.yaml` | `Examples/RGB-D/associations/fr1_room.txt` |
+| `rgbd_dataset_freiburg2_xyz` | `Examples/RGB-D/TUM2.yaml` | `Examples/RGB-D/associations/fr2_xyz.txt` |
+| `rgbd_dataset_freiburg3_office` | `Examples/RGB-D/TUM3.yaml` | `Examples/RGB-D/associations/fr3_office.txt` |
+
+4. 运行示例：
+
+```bash
+./Examples/RGB-D/rgbd_tum Vocabulary/ORBvoc.txt Examples/RGB-D/TUM1.yaml /path/to/rgbd_dataset_freiburg1_xyz Examples/RGB-D/associations/fr1_xyz.txt
+```
+
+如果使用其他序列，请把 `/path/to/rgbd_dataset_freiburg1_xyz` 替换为本地数据集目录，并同步替换对应的 `TUM*.yaml` 和 `associations/*.txt`。
+
+5. 运行结束后，程序会在项目目录生成轨迹结果文件，常见输出包括：
+
+```text
+CameraTrajectory.txt
+KeyFrameTrajectory.txt
+```
 
 ## 注意事项
 
