@@ -1,0 +1,74 @@
+data: '{"fps": 10.12, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 9.91, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.01, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.02, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.07, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.25, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.27, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.19, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.29, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.43, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.48, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.55, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.39, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.42, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.33, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.39, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.51, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.52, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.66, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.81, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.77, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.73, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.79, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.56, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.3, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.45, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.5, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.62, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.61, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.65, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.67, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.58, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.71, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.71, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.67, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.63, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---
+data: '{"fps": 10.61, "detections": [], "dynamic": [], "static_interest": [], "active": []}'
+---

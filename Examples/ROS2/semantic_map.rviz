@@ -1,0 +1,77 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+  - Class: rviz_common/Selection
+    Name: Selection
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 1
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 120; 120; 120
+      Enabled: true
+      Name: Grid
+      Plane: XY
+      Plane Cell Count: 20
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: SemanticMarkers
+      Topic: /semantic_markers
+      Queue Size: 10
+    - Class: rviz_default_plugins/PointCloud2
+      Enabled: true
+      Name: CloudMap
+      Topic: /cloud_map
+      Queue Size: 10
+      Style: Points
+      Size (Pixels): 2
+      Color Transformer: RGB8
+      Use Fixed Frame: true
+    - Class: rviz_default_plugins/Path
+      Enabled: true
+      Name: MapPath
+      Topic: /mapPath
+      Queue Size: 10
+      Line Style: Lines
+      Line Width: 0.03
+      Color: 0; 255; 255
+    - Class: rviz_default_plugins/Path
+      Enabled: true
+      Name: GlobalPath
+      Topic: /global_path
+      Queue Size: 10
+      Line Style: Lines
+      Line Width: 0.03
+      Color: 255; 200; 0
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Name: TF
+  Enabled: true
+  Global Options:
+    Fixed Frame: odom
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetInitialPose
+    - Class: rviz_default_plugins/SetGoal
+    - Class: rviz_default_plugins/PublishPoint
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 4
+      Focal Point: 0; 0; 0
+      Pitch: 0.3
+      Yaw: 0.5
+Window Geometry:
+  Width: 1280
+  Height: 720
+  X: 50
+  Y: 50

@@ -1,0 +1,30 @@
+rtabmap:
+  ros__parameters:
+    frame_id: "base_link"
+    odom_frame_id: "odom"
+    subscribe_rgbd: false
+    subscribe_depth: true
+    subscribe_odom: true
+    approx_sync: true
+    topic_queue_size: 50
+    sync_queue_size: 50
+    publish_map: true
+    map_always_update: true
+    RGBD/NeighborLinkRefining: "false"
+    RGBD/ProximityBySpace: "false"
+    RGBD/ProximityByTime: "false"
+    Rtabmap/LoopThr: "0"
+    Rtabmap/LoopRatio: "0"
+    RGBD/LinearUpdate: "0"
+    RGBD/AngularUpdate: "0"
+    Cloud/DepthDecimation: "1"
+    Cloud/MaxDepth: "2.5"
+    Cloud/MinDepth: "0.2"
+    Cloud/NoiseFiltering: "true"
+    Cloud/NoiseFilteringRadius: "0.03"
+    Cloud/NoiseFilteringMinNeighbors: "8"
+    Grid/FromDepth: "true"
+    Grid/3D: "true"
+    Grid/CellSize: "0.003"
+    Grid/RangeMax: "2.5"
+    cloud_output_voxelized: false
